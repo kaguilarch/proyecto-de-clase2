@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#header-banca-en-linea {
+  width: 100vw;
+  background: rgb(72, 102, 183);
+  background: linear-gradient(90deg, rgb(72, 102, 183) 18%, rgb(99, 137, 207) 88%);
+}
+
+.header-banca-en-linea-container {
+  padding: 10px;
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-banca-en-linea-container a img {
+  height: 60px;
+}
+
+.img-header-banca-en-linea {
+  height: 80px;
+}/*# sourceMappingURL=banca-en-linea.css.map */

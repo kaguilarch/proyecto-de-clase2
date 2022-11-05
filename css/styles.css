@@ -1,0 +1,188 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  box-sizing: content-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+#header {
+  display: grid;
+  justify-items: center;
+}
+
+.header-container {
+  margin: 10px;
+  gap: 10px;
+  align-items: center;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.imag-logo {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.menu-superior {
+  align-items: center;
+  border-bottom: 1px solid rgb(212, 210, 210);
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 10px;
+}
+.menu-superior .menu-S a {
+  color: black;
+  display: block;
+  padding: 5px;
+}
+
+.menu-inferior {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 5px;
+  align-items: center;
+  padding: 10px;
+  margin-top: 3px;
+}
+
+.menu-I a {
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #CAD43B;
+  color: #1c3583;
+}
+
+.menu-I-S a {
+  background-color: #dceefc;
+  color: #1c3583;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+#section-index {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: auto;
+  margin: 20px auto;
+}
+
+.section-container {
+  width: 80%;
+}
+.section-container .info {
+  justify-items: center;
+  margin: 2% 0px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.tarjetas {
+  margin-top: 50px;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.tarjetas div a {
+  margin: 25px;
+  padding: 6px;
+  display: block;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  color: black;
+  border: solid #CAD43B 2px;
+  border-radius: 5px;
+}
+
+h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 25px;
+}
+
+h4 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 14px;
+}
+
+.tarjetas div a:hover {
+  background-color: rgb(38, 131, 185);
+  color: white;
+  transition: 0.4s;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  box-sizing: content-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+#footer {
+  justify-items: center;
+  display: grid;
+  margin: 20px auto;
+}
+
+.footer-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+
+.menu-izquierda-anidado {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  border-right: solid 1px rgb(202, 202, 202);
+}
+
+.submenu-izquierda a {
+  display: block;
+  color: black;
+  font-size: 13px;
+  margin: 10px;
+}
+
+.container-img-RS {
+  display: grid;
+  grid-template-columns: repeat(4, 45px);
+  justify-content: end;
+}
+
+.logo-redes {
+  width: 30px;
+  height: 30px;
+}
+
+.Informacion p {
+  font-size: 13px;
+  padding-left: 10px;
+}
+
+#subsidiarias {
+  display: grid;
+  margin: 20px auto;
+}
+
+.grid-subsidiarias {
+  width: 80%;
+  margin: 0px auto;
+  grid-template-columns: repeat(5, 1fr);
+  display: grid;
+  justify-items: center;
+}
+
+.subsidiarias {
+  width: 120px;
+  height: 48px;
+}/*# sourceMappingURL=styles.css.map */

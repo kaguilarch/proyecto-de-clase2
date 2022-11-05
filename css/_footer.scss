@@ -1,0 +1,64 @@
+
+#footer{
+    justify-items: center;
+    display: grid;
+    margin: 20px auto;
+    
+}
+.footer-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    padding: 20px;
+    
+}
+.menu-izquierda-anidado{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    border-right: solid 1px rgb(202, 202, 202);
+}
+.submenu-izquierda{
+    a{  
+        display: block;
+        color: black;
+        font-size: 13px;
+        margin: 10px;
+    }
+}
+.container-img-RS{
+    
+    display: grid;
+    grid-template-columns: repeat(4 , 45px);
+    justify-content: end;
+    
+}
+.logo-redes{
+    width: 30px;
+    height: 30px;
+}
+.Informacion{
+
+    p{
+        font-size: 13px;
+        padding-left: 10px;
+    }
+}
+#subsidiarias{
+    display: grid;
+    margin: 20px auto;
+}
+.grid-subsidiarias{
+    width: 80%;
+    margin: 0px auto;
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    justify-items: center;
+    
+
+}
+.subsidiarias{
+    width: 120px;
+    height: 48px;
+}

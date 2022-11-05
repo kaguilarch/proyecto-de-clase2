@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../registro en linea/registro-de-cliente.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Registro de cliente</title>
+</head>
+<body>
+    <form id="Registro-de-cliente"action="post">
+        <div class="container-información">
+
+            <div class="Titulo-registro"><h4>Información Básica</h4></div>
+
+            <div class="container-form">
+                <div class="label">
+                    <label for="Identificacion">Identificacion:</label>
+                    <label for="Nombre">Nombre:</label>
+                    <label for="Apellido">Primer Apellido:</label>
+                    <label for="Segundo-Apellido">Segundo Apellido:</label>
+                    <label for="nacimiento">fecha de nacimiento:</label>
+                </div>       
+                <div class="input">
+                    <input type="text" id="Identificacion">
+                    <input type="text" id ="Nombre">
+                    <input type="text" id ="Apellido">
+                    <input type="text" id="Segundo-Apellido">
+                    <input type="date" id="nacimiento">
+                </div>
+            </div>
+        </div>
+    </form>
+
+   <form id="Información-Adicional" action="post">
+        <div class="container-información">
+            <div class="Titulo-registro"><h4>Información Adicional</h4></div>
+                <div class="container-form">
+                    <div class="label">
+                        <label>Nacionalidad:</label>
+                        <label for="trabajador">Tipo de trabajador:</label>
+                        <label for="Profesión">Profesión:</label>
+                        <label for="Correo">Correo:</label>
+                        <label for="Teléfono">Teléfono:</label>
+                        <label for="Ubicacion">Ubicacion:</label>
+                    </div>
+                    <div class="input">
+                        <select>	
+                            <option selected="selected" value="-1">Seleccione</option>
+                            <option value="300">AFGANO</option>
+                            <option value="400">ALBANES</option>
+                            <option value="30">ALEMAN(A)</option>
+                            <option value="307">AMIRI</option>
+                            <option value="401">ANDORRANO</option>
+                            <option value="101">ANGOLEÑO</option>
+                            <option value="200">ANGUILANO</option>
+                            <option value="201">ANTILLANO</option>
+                            <option value="666">APÁTRIDA</option>
+                            <option value="50">ARABE</option>
+                            <option value="71">ARGELINO</option>
+                            <option value="20">ARGENTINO(A)</option>
+                            <option value="402">ARMENIO</option>
+                            <option value="202">ARUBEÑO</option>
+                            <option value="90">AUSTRALIANO</option>
+                            <option value="31">AUSTRIACO(A)</option>
+                            <option value="403">AZERI, AZERBAIYANO</option>
+                            <option value="212">BAHAMES </option>
+                            <option value="301">BAHRINI</option>
+                            <option value="213">BARBANDENSE</option>
+                            <option value="119">BASUTO,LESOTENSE</option>
+                            <option value="32">BELGA</option>
+                            <option value="2">BELICENO</option>
+                            <option value="302">BENGALI, BANGLADESHI</option>
+                            <option value="102">BENINES</option>
+                            <option value="214">BERMUDEÑO</option>
+                            <option value="404">BIELORUSO</option>
+                            <option value="303">BIRMANO</option>
+                            <option value="21">BOLIVIANO(A)</option>
+                            <option value="405">BOSNIO</option>
+                            <option value="103">BOTSWANES</option>
+                            <option value="22">BRASILENO(A)</option>
+                            <option value="304">BRUNEANO</option>
+                            <option value="51">BULGARO(A)</option>
+                            <option value="104">BURKINES</option>
+                            <option value="105">BURUNDIANO</option>
+                            <option value="305">BUTANES</option>
+                            <option value="106">CABOVERDIANO</option>
+                            <option value="215">CAIMANESES</option>
+                            <option value="306">CAMBOYANO</option>
+                            <option value="72">CAMERUNES, CAMERUNENSE </option>
+                            <option value="10">CANADIENSE</option>
+                            <option value="319">CEILANDES</option>
+                            <option value="127">CENTROAFRICANO</option>
+                            <option value="107">CHADIANO</option>
+                            <option value="53">CHECO</option>
+                            <option value="24">CHILENO(A)</option>
+                            <option value="54">CHINO(A)</option>
+                            <option value="406">CHIPRIOTA</option>
+                            <option value="23">COLOMBIANO(A)</option>
+                            <option value="108">COMORANO, COMORENSE</option>
+                            <option value="86">CONGOLEÑO</option>
+                            <option value="73">CONGOLES, CONGOLEÑO</option>
+                            <option value="52">COREANO(A)</option>
+                            <option value="1">COSTARRICENSE</option>
+                            <option value="407">CROATA</option>
+                            <option value="13">CUBANO</option>
+                            <option value="520">CURAZOLEÑO</option>
+                            <option value="33">DANES(A)</option>
+                            <option value="203">DE DOMINICA</option>
+                            <option value="218">DE ISLAS VIRGENES</option>
+                            <option value="219">DE ISLAS VIRGENES BRITANICAS</option>
+                            <option value="312">DE MACAO</option>
+                            <option value="506">DE MICRONESIA</option>
+                            <option value="221">DE MONTSERRAT</option>
+                            <option value="217">DE TURCAS Y CAICOS</option>
+                            <option value="17">DOMINICANO(A)</option>
+                            <option value="117">ECUATOGUINEANO</option>
+                            <option value="25">ECUATORIANO(A)</option>
+                            <option value="74">EGIPCIO</option>
+                            <option value="111">ERITREO</option>
+                            <option value="408">ESCOCES, ESCOCESA</option>
+                            <option value="409">ESLOVACO</option>
+                            <option value="410">ESLOVENO</option>
+                            <option value="34">ESPANOL(A)</option>
+                            <option value="11">ESTADOUNIDENSE</option>
+                            <option value="411">ESTONIO</option>
+                            <option value="75">ETIOPE</option>
+                            <option value="415">FEROES</option>
+                            <option value="35">FILANDES</option>
+                            <option value="500">FIYIANO</option>
+                            <option value="36">FRANCES(A)</option>
+                            <option value="112">GABONES</option>
+                            <option value="412">GALES</option>
+                            <option value="113">GAMBIENSE, GANBIANO</option>
+                            <option value="431">GEORGIANO</option>
+                            <option value="114">GHANES</option>
+                            <option value="413">GIBRALTAREÑO</option>
+                            <option value="204">GRANADINO</option>
+                            <option value="37">GRIEGO(A)</option>
+                            <option value="414">GROENLANDES</option>
+                            <option value="216">GUADALUPEÑO</option>
+                            <option value="501">GUAMEÑO</option>
+                            <option value="3">GUATEMALTECO(A)</option>
+                            <option value="205">GUAYANES</option>
+                            <option value="115">GUINEANO</option>
+                            <option value="206">GUYANES</option>
+                            <option value="14">HAITIANO(A)</option>
+                            <option value="38">HOLANDES(A)</option>
+                            <option value="4">HONDURENO(A)</option>
+                            <option value="308">HONKONES</option>
+                            <option value="55">HUNGARO(A)</option>
+                            <option value="309">INDONESIO</option>
+                            <option value="56">INDU</option>
+                            <option value="39">INGLES(A)</option>
+                            <option value="57">IRAKI</option>
+                            <option value="58">IRANI</option>
+                            <option value="40">IRLANDES(A)</option>
+                            <option value="41">ISLANDES(A)</option>
+                            <option value="59">ISRAELI</option>
+                            <option value="42">ITALIANO(A)</option>
+                            <option value="15">JAMAIQUINO(A)</option>
+                            <option value="60">JAPONES</option>
+                            <option value="61">JORDANO</option>
+                            <option value="416">KASAJO</option>
+                            <option value="76">KENIATA</option>
+                            <option value="418">KIRGUIZ</option>
+                            <option value="505">KIRIBATENSE</option>
+                            <option value="62">KUWAITI</option>
+                            <option value="311">LAOSIANO</option>
+                            <option value="419">LETON</option>
+                            <option value="63">LIBANES</option>
+                            <option value="77">LIBERIANO</option>
+                            <option value="78">LIBIO</option>
+                            <option value="420">LIECHTENSTEINIANO</option>
+                            <option value="421">LITUANO</option>
+                            <option value="43">LUXEMBURGUES(A)</option>
+                            <option value="422">MACEDONIO</option>
+                            <option value="121">MALAWIANO</option>
+                            <option value="313">MALAYO</option>
+                            <option value="310">MALDIVO</option>
+                            <option value="120">MALGACHE</option>
+                            <option value="122">MALIENSE</option>
+                            <option value="423">MALTES</option>
+                            <option value="109">MARFILEÑO</option>
+                            <option value="79">MARROQUI</option>
+                            <option value="503">MARSHALES</option>
+                            <option value="220">MARTINIQUEZ</option>
+                            <option value="118">MAURICIANO</option>
+                            <option value="123">MAURITANO</option>
+                            <option value="12">MEJICANO</option>
+                            <option value="424">MOLDAVO</option>
+                            <option value="44">MONAQUES</option>
+                            <option value="314">MONGOL</option>
+                            <option value="124">MOZAMBIQUEÑO</option>
+                            <option value="516">MYANMAR</option>
+                            <option value="999">NACIONALIDAD SIN DEFINIR</option>
+                            <option value="125">NAMBIO</option>
+                            <option value="507">NAURUANO</option>
+                            <option value="508">NEOCALEDONIO</option>
+                            <option value="92">NEOZELANDES</option>
+                            <option value="80">NEPALES</option>
+                            <option value="5">NICARAGUENSE</option>
+                            <option value="81">NIGERIANO</option>
+                            <option value="45">NORUEGO(A)</option>
+                            <option value="315">OMANI</option>
+                            <option value="316">PAKISTANI</option>
+                            <option value="509">PALAUANO</option>
+                            <option value="518">PALESTINO</option>
+                            <option value="6">PANAMENO(A)</option>
+                            <option value="510">PAPU</option>
+                            <option value="26">PARAGUAYO(A)</option>
+                            <option value="27">PERUANO</option>
+                            <option value="91">PHILIPPINO</option>
+                            <option value="64">POLACO(A)</option>
+                            <option value="425">POLINESIO</option>
+                            <option value="139">PORTUGUES</option>
+                            <option value="16">PUERTORRIQUENO(A)</option>
+                            <option value="317">QATARI</option>
+                            <option value="129">RUANDES</option>
+                            <option value="65">RUMANO(A)</option>
+                            <option value="1000">RUSO</option>
+                            <option value="130">SAHARAUI</option>
+                            <option value="504">SALOMONENSE</option>
+                            <option value="7">SALVADORENO(A)</option>
+                            <option value="511">SAMOANO</option>
+                            <option value="207">SANCRISTOBALENSE</option>
+                            <option value="426">SANMARINENSE</option>
+                            <option value="209">SANTALUCENSE</option>
+                            <option value="208">SANVICENTINO</option>
+                            <option value="82">SENEGALES</option>
+                            
+                        </select>
+                        <select>	
+                            <option selected="selected" value="-1">Seleccione</option>
+                            <option value="1">TRABAJADOR DEPENDIENTE</option>
+                            <option value="2">TRABAJADOR INDEPENDIENTE</option>
+                            <option value="3">NO LABORA</option>
+                        </select>           
+                        <select >	
+                            <option selected="selected" value="-1">Seleccione</option>
+                            <option value="1">ABOGADO, NOTARIO</option>
+                            <option value="4">ACTOR, ACTRIZ</option>
+                            <option value="173">ADMINISTRADOR DE NEGOCIOS</option>
+                            <option value="2">ADMINISTRADOR EN GENERAL</option>
+                            <option value="3">ADMINISTRADOR HOTELERO</option>
+                            <option value="18">ADMINISTRADOR PUBLICO</option>
+                            <option value="142">ADUANERO</option>
+                            <option value="106">AEROMOZA, SOBRECARGO, AZAFATA</option>
+                            <option value="13">AGENTE DE SEGUROS</option>
+                            <option value="117">AGENTE DE VIAJES, TURISMO</option>
+                            <option value="272">AGENTE, EJECUTIVO DE VENTAS</option>
+                            <option value="5">AGRICULTOR</option>
+                            <option value="31">AGRONOMO</option>
+                            <option value="34">ALBAÑIL</option>
+                            <option value="6">AMA DE CASA</option>
+                            <option value="511">AMBIENTALISTA, GUARDAPARQUES</option>
+                            <option value="174">ANALISTA</option>
+                            <option value="189">ANESTESIOLOGO</option>
+                            <option value="198">ANFITRION</option>
+                            <option value="151">ANTROPOLOGO</option>
+                            <option value="38">APICULTOR, SERICULTOR</option>
+                            <option value="8">ARQUEOLOGO</option>
+                            <option value="9">ARQUITECTO</option>
+                            <option value="125">ARTESANO</option>
+                            <option value="27">ARTISTA, ACROBATA</option>
+                            <option value="929">ASESOR</option>
+                            <option value="39">ASISTENTE, AYUDANTE</option>
+                            <option value="41">ASTROLOGO, ADIVINADOR</option>
+                            <option value="186">ASTRONOMO</option>
+                            <option value="187">AUDITOR, CONTRALOR</option>
+                            <option value="154">AUXILIAR</option>
+                            <option value="280">AVICULTOR</option>
+                            <option value="42">BAILARIN, COREOGRAFO</option>
+                            <option value="10">BIBLIOTECOLOGO, BIBLIOTECARIO</option>
+                            <option value="516">BIOFISICO</option>
+                            <option value="11">BIOLOGO</option>
+                            <option value="95">BIOTECNOLOGO</option>
+                            <option value="12">BODEGUERO</option>
+                            <option value="163">BOLETERO</option>
+                            <option value="931">BOMBERO</option>
+                            <option value="44">BOTANICO</option>
+                            <option value="147">BOTONES, MALETERO</option>
+                            <option value="98">CAJERO</option>
+                            <option value="28">CAPATAZ</option>
+                            <option value="47">CAPITAN</option>
+                            <option value="138">CARNICERO</option>
+                            <option value="52">CARPINTERO</option>
+                            <option value="162">CARTERO</option>
+                            <option value="55">CATADOR</option>
+                            <option value="93">CERRAJERO, HERRAMENTISTA</option>
+                            <option value="100">CHOFER, TRANSPORTISTA Y AFINES</option>
+                            <option value="249">COCINERO, CHEF, GASTRONOMO</option>
+                            <option value="178">COMERCIANTE DETALLISTA</option>
+                            <option value="14">COMERCIANTE MAYORISTA</option>
+                            <option value="17">CONSTRUCTOR, MAESTRO DE OBRAS</option>
+                            <option value="15">CONTADOR PRIVADO</option>
+                            <option value="16">CONTADOR PUBLICO</option>
+                            <option value="30">CORREDOR DE BIENES RAICES</option>
+                            <option value="33">CORREDOR DE BOLSA</option>
+                            <option value="590">CRIADOR, GRANJERO, ADIESTRADOR</option>
+                            <option value="132">CRIMINOLOGO</option>
+                            <option value="75">CRISTALERO, VIDRIERO Y AFINES</option>
+                            <option value="89">CRUZROJISTA, PARAMEDICO</option>
+                            <option value="36">DAMA, CABALLERO DE COMPAÑIA</option>
+                            <option value="164">DEALER</option>
+                            <option value="199">DECORADOR</option>
+                            <option value="182">DEPENDIENTE FAMILIAR</option>
+                            <option value="141">DEPORTISTA, ATLETA</option>
+                            <option value="19">DIBUJANTE</option>
+                            <option value="51">DIGITADOR</option>
+                            <option value="202">DIPLOMATICO</option>
+                            <option value="20">DIPUTADO, DELEGADO</option>
+                            <option value="78">DIRECTIVO, DIRIGENTE</option>
+                            <option value="139">DIRECTOR</option>
+                            <option value="165">DISC JOCKEY</option>
+                            <option value="144">DISENADOR</option>
+                            <option value="121">EBANISTA</option>
+                            <option value="21">ECONOMISTA</option>
+                            <option value="87">ELECTRICO, ELECTRONICO</option>
+                            <option value="96">ELECTROMECANICO</option>
+                            <option value="37">EMBAJADOR</option>
+                            <option value="224">EMP DOMESTICO,MUCAMA,MAYORDOMO</option>
+                            <option value="942">EMPACADOR</option>
+                            <option value="22">EMPRESARIO</option>
+                            <option value="573">ENCUESTADOR</option>
+                            <option value="195">ENDEREZADOR, PINTOR AUTOMOTRIZ</option>
+                            <option value="23">ENFERMERO</option>
+                            <option value="571">ENTRENADOR, PREPARADOR FISICO</option>
+                            <option value="24">ESCRITOR</option>
+                            <option value="953">ESCULTOR</option>
+                            <option value="926">ESTADISTA</option>
+                            <option value="145">ESTILISTA, PELUQUERO, BARBERO</option>
+                            <option value="934">ESTUDIANTE</option>
+                            <option value="86">EXTERMINADOR, FUMIGADOR</option>
+                            <option value="25">FARMACEUTICO</option>
+                            <option value="153">FILOLOGO</option>
+                            <option value="184">PENSIONADO</option>
+                            <option value="172">PEON, JORNALERO</option>
+                            <option value="58">PERIODISTA, REPORTERO, EDITOR</option>
+                            <option value="54">PERITO, CARTOGRAFO</option>
+                            <option value="617">PESCADOR, MARINERO</option>
+                            <option value="108">PILOTO</option>
+                            <option value="122">PINTOR</option>
+                            <option value="951">PISTERO, LLANTERO, ENGRASADOR</option>
+                            <option value="62">PLOMERO</option>
+                            <option value="35">POLICIA, OFICIAL DE TRANSITO</option>
+                            <option value="131">POLITOLOGO</option>
+                            <option value="118">PRESTAMISTA</option>
+                            <option value="65">PRODUCTOR, CINEASTA</option>
+                            <option value="59">PROFESOR, MAESTRO</option>
+                            <option value="67">PROGRAMADOR</option>
+                            <option value="61">PSICOLOGO</option>
+                            <option value="66">PSIQUIATRA</option>
+                            <option value="92">PUBLICISTA</option>
+                            <option value="185">QUIMICO</option>
+                            <option value="133">QUIROPRACTICO</option>
+                            <option value="191">RADIOLOGO, IMAGENOLOGO</option>
+                            <option value="63">RECEPCIONISTA</option>
+                            <option value="127">RECOLECTOR</option>
+                            <option value="128">RELACIONISTA INTERNACIONAL</option>
+                            <option value="64">RELACIONISTA PUBLICO</option>
+                            <option value="40">RELIGIOSO</option>
+                            <option value="177">REPARTIDOR, DISTRIBUIDOR</option>
+                            <option value="82">SASTRE, COSTURERA, MODISTO</option>
+                            <option value="927">SECRETARIA</option>
+                            <option value="91">SERIGRAFO, LITOGRAFO, IMPRENTA</option>
+                            <option value="150">SOCIOLOGO, COMUNICADOR SOCIAL</option>
+                            <option value="232">SOLDADOR</option>
+                            <option value="190">SUPERVISOR</option>
+                            <option value="612">TALABARTERO, CURTIDOR Y AFINES</option>
+                            <option value="94">TAPICERO</option>
+                            <option value="197">TECNICO DENTAL</option>
+                            <option value="180">TECNICO ESPECIALIZADO</option>
+                            <option value="192">TECNOLOGO ALIMENTOS Y BEBIDAS</option>
+                            <option value="528">TEOLOGO</option>
+                            <option value="130">TERAPEUTA, FISIOTERAPEUTA</option>
+                            <option value="69">TESORERO</option>
+                            <option value="32">TOPOGRAFO</option>
+                            <option value="146">TRABAJADOR SOCIAL</option>
+                            <option value="157">TRADUCTOR, INTERPRETADOR</option>
+                            <option value="70">VENDEDOR, DEPENDIENTE</option>
+                            <option value="71">VETERINARIO</option>
+                            <option value="73">ZAPATERO</option>
+                            <option value="109">ZOOLOGO</option>
+                            <option value="226">ZOOTECNICO</option>
+                            
+                        </select>
+     
+                        <input type="email" id="Correo">
+                        <input type="text" id="Teléfono">
+                        <input type="textarea" id="Ubicacion">
+                    </div>
+                </div>
+        </div>
+
+            
+            
+         
+    </form>
+
+    <div class="boton-f">  
+        <a href="../index2.html"><button>Regresar</button></a>
+        <button>Continuar</button>
+    </div>
+    
+</body>
+</html>
