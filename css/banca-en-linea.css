@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Montserrat", sans-serif;
 }
 
 #header-banca-en-linea {
@@ -25,6 +26,37 @@
   height: 80px;
 }
 
+.banca-en-linea-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  display: block;
+  margin: 15px;
+}
+
+.input {
+  background-color: rgba(204, 204, 204, 0.8);
+}
+
+.boton {
+  width: 85%;
+  background-color: #cad43b;
+  color: white;
+  font-weight: bold;
+}
+
+.background img {
+  box-sizing: border-box;
+  width: 65vw;
+  height: 69vh;
+}
+
 #footer-banca-en-linea {
   width: 100vw;
   background: rgb(72, 102, 183);
@@ -40,7 +72,6 @@
   align-items: center;
 }
 .footer-banca-en-linea-container span h2 {
-  font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 40px;
   padding: 10px;
@@ -49,14 +80,11 @@
 .footer-banca-en-linea-container ul {
   display: grid;
   justify-items: start;
-  grid-template-columns: auto auto;
+  grid-template-columns: 0.7fr 1fr;
   margin-left: 10px;
-  background-color: antiquewhite;
 }
-.footer-banca-en-linea-container li {
-  font-family: "Montserrat", sans-serif;
-  background-color: aquamarine;
+.footer-banca-en-linea-container ul li {
   color: white;
   font-size: 19px;
-  margin: 5px 10px;
+  margin: 5px 11px;
 }/*# sourceMappingURL=banca-en-linea.css.map */
