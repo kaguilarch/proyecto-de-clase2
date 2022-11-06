@@ -5,7 +5,7 @@
 #header-banca-en-linea{
     width: 100vw;
     background: rgb(72,102,183);
-    background: linear-gradient(90deg, rgba(72,102,183,1) 18%, rgba(99,137,207,1) 88%);;
+    background: linear-gradient(90deg, rgba(72,102,183,1) 18%, rgba(99,137,207,1) 88%);
 }
 .header-banca-en-linea-container{
     padding: 10px;
@@ -24,4 +24,42 @@
 .img-header-banca-en-linea{
     height: 80px;
 
+}
+#footer-banca-en-linea{
+    width: 100vw;
+    background: rgb(72,102,183);
+    background: linear-gradient(90deg, rgba(72,102,183,1) 18%, rgba(99,137,207,1) 88%);
+}
+.footer-banca-en-linea-container{
+    padding: 10px;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span{
+        h2{
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 40px;
+            padding: 10px;
+            margin-right: 10px;
+
+        }
+    }
+    ul{
+        display: grid;
+        justify-items: start;
+        grid-template-columns:auto auto;
+        margin-left: 10px;
+        background-color: antiquewhite;
+    }
+    li{
+        font-family: 'Montserrat', sans-serif;
+        background-color: aquamarine;
+        color: white;
+        font-size: 19px;
+        margin: 5px 10px;
+    }
 }
