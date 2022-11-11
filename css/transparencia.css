@@ -1,12 +1,3 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  text-decoration: none;
-  box-sizing: content-box;
-  font-family: "Open Sans", sans-serif;
-  font-size: 13px;
-}
-
 #header {
   display: grid;
   justify-items: center;
@@ -126,4 +117,13 @@
 .subsidiarias {
   width: 120px;
   height: 48px;
-}/*# sourceMappingURL=estilos personales.css.map */
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  box-sizing: content-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}/*# sourceMappingURL=transparencia.css.map */
