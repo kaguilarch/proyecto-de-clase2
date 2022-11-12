@@ -34,13 +34,15 @@
 
 }
 .menu-inferior{
+    
     justify-items: center;
     display: grid;
     grid-template-columns: repeat(5,auto);
-    gap: 5px;
+    gap: 0.8rem;
     align-items: center;
-    padding: 10px;
-    margin-top: 3px;
+    padding: 1rem 0rem;
+    margin-top: 100px;
+    background-color: #1c3583;
     
 }
 .menu-I{
