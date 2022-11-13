@@ -146,24 +146,24 @@
   font-family: "Open Sans", sans-serif;
 }
 
-#section-transparencia {
+#section-sostenibilidad {
   width: 100vw;
 }
-#section-transparencia .transparencia-container {
+#section-sostenibilidad .sostenibilidad-container {
   width: 80%;
   max-width: 80%;
   margin: 40px auto;
 }
-#section-transparencia .transparencia-container .img-transparencia {
+#section-sostenibilidad .sostenibilidad-container .img-sostenibilidad {
   display: flex;
   justify-content: end;
   position: relative;
 }
-#section-transparencia .transparencia-container .img-transparencia img {
+#section-sostenibilidad .sostenibilidad-container .img-sostenibilidad img {
   width: 65vw;
   height: 60vh;
 }
-#section-transparencia .transparencia-container .img-transparencia .idea {
+#section-sostenibilidad .sostenibilidad-container .img-sostenibilidad .idea {
   top: 100px;
   left: 0px;
   display: flex;
@@ -178,8 +178,75 @@
   height: 30vh;
   width: 17vw;
 }
-#section-transparencia .transparencia-container .img-transparencia .idea h3 {
+#section-sostenibilidad .sostenibilidad-container .img-sostenibilidad .idea h3 {
   text-align: center;
   align-self: center;
   font-size: 20px;
-}/*# sourceMappingURL=transparencia.css.map */
+}
+
+#sostenibilidad-inferior {
+  margin-top: 40px;
+  width: 100vw;
+}
+
+.sostenibilidad-inferior-container {
+  width: 80%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  justify-items: center;
+  gap: 20px;
+}
+.sostenibilidad-inferior-container .sostenibilidad-inferior-derecha {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  background-color: #f6f8fd;
+}
+.sostenibilidad-inferior-container .sostenibilidad-inferior-derecha img {
+  width: 20vw;
+}
+.sostenibilidad-inferior-container .sostenibilidad-inferior-derecha h2 {
+  font-size: 20px;
+  padding: 20px;
+  color: #1c3583;
+  font-weight: bold;
+}
+.sostenibilidad-inferior-container .sostenibilidad-inferior-derecha a {
+  margin: 15px;
+  padding: 5px 30px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  color: #1c3583;
+  background-color: #CAD43B;
+  border-radius: 5px;
+}
+.sostenibilidad-inferior-container .sostenibilidad-inferior-izquierda {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  background-color: #f6f8fd;
+}
+.sostenibilidad-inferior-container .sostenibilidad-inferior-izquierda img {
+  width: 20vw;
+}
+.sostenibilidad-inferior-container .sostenibilidad-inferior-izquierda a {
+  margin: 15px;
+  padding: 5px 30px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  color: #1c3583;
+  background-color: #CAD43B;
+  border-radius: 5px;
+}
+.sostenibilidad-inferior-container .sostenibilidad-inferior-izquierda h2 {
+  padding: 20px;
+  font-size: 20px;
+  color: #1c3583;
+  font-weight: bold;
+}/*# sourceMappingURL=sostenibilidad.css.map */

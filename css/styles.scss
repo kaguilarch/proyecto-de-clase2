@@ -1,12 +1,11 @@
-$color-verde:#CAD43B;
-$color-azul: #4e8cad;
+
+@use 'header';
+@use'footer';
 
 *{  padding: 0px;
     margin: 0px;
     text-decoration: none;
     box-sizing: content-box;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
 }
 // como usarlos 
 // nada mas se agrega $ycombre de variable 
@@ -26,19 +25,21 @@ $color-azul: #4e8cad;
 // para llamarlos seria 
 // @include variable()
 // }
-@use 'header';
-@use 'footer';
+
+
 
 #section-index{
     justify-items: center;
     display: grid;
     grid-template-columns: auto;
     margin: 20px auto;
+    width: 100vw;
     
 }
 
 .section-container{
     width: 80%;
+    max-width: 70vw;
     
 
     .info{
@@ -54,7 +55,7 @@ $color-azul: #4e8cad;
     margin-top: 50px;
     justify-items: center;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     
     div{
 
@@ -74,10 +75,12 @@ $color-azul: #4e8cad;
 
 }
 h3{
+    padding: 5px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 25px;
 }
 h4{
+    padding: 5px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
 }

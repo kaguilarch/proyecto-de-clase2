@@ -11,8 +11,9 @@
 }
 
 .header-banca-en-linea-container {
-  padding: 10px;
   width: 80%;
+  padding: 10px;
+  max-width: 75%;
   margin: 0px auto;
   display: flex;
   justify-content: space-between;
@@ -23,10 +24,11 @@
 }
 
 .img-header-banca-en-linea {
-  height: 80px;
+  height: 70px;
 }
 
 .banca-en-linea-container {
+  width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -58,8 +60,8 @@ input {
 
 .background img {
   margin: 4px 0px 0px 0px;
-  width: 65vw;
-  height: 70.5vh;
+  max-width: 70vw;
+  height: 72.5vh;
 }
 
 #footer-banca-en-linea {

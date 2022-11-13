@@ -8,30 +8,41 @@
     width: 100vw;
     
     .transparencia-container{
+        
         width: 80%;
-        margin: 0px auto;
+        max-width: 80%;
+        margin: 40px auto;
+        
         
 
         .img-transparencia{
-            position: relative;
+           
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: end;
+            position: relative;
+            
+
+            img{
+                width: 65vw;
+                height: 60vh;
+                
+
+            }
 
             .idea{
+                top: 100px;
+                left: 0px;
                 display: flex;
                 justify-content: center;
-                top: 50px;
-                left: -60px;
                 color: white;
                 padding: 2rem ;
                 border-top-right-radius: 50px;
                 border-top-left-radius: 50px;
                 border-bottom-right-radius: 50px;
-                position:absolute;
+                position: absolute;
                 background-color: rgba(6, 54, 117);
-                height: 17.5rem;
-                width: 15.5rem;
+                height: 30vh;
+                width: 17vw;
                 
                 h3{
                     text-align: center;

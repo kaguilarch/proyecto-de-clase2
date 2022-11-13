@@ -1,27 +1,22 @@
 * {
-  padding: 0px;
-  margin: 0px;
   text-decoration: none;
-  box-sizing: content-box;
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 13px;
 }
 
 #header {
-  margin-top: 2rem;
   display: grid;
   justify-items: center;
   width: 100vw;
-  
 }
 
 .header-container {
-  margin: 10px auto;
-  gap: 0.8rem;
+  margin: 10px;
+  gap: 10px;
   align-items: center;
+  min-width: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
 }
 
 .imag-logo {
@@ -35,7 +30,7 @@
   justify-items: center;
   display: grid;
   grid-template-columns: repeat(5, auto);
-  
+  gap: 10px;
 }
 .menu-superior .menu-S a {
   color: black;
@@ -46,15 +41,14 @@
 .menu-inferior {
   justify-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr auto 150px 150px;
-  gap: 15px;
+  grid-template-columns: repeat(5, auto);
+  gap: 0.8rem;
   align-items: center;
-  padding: 1rem 0rem;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .menu-I a {
-  padding: .8rem;
+  padding: 10px;
   text-align: center;
   border-radius: 4px;
   background-color: #CAD43B;
@@ -64,81 +58,30 @@
 .menu-I-S a {
   background-color: #dceefc;
   color: #1c3583;
-  padding: .8rem;
+  padding: 10px;
   text-align: center;
   border-radius: 4px;
 }
 
-#section-index {
-  justify-items: center;
-  display: grid;
-  grid-template-columns: auto;
-  margin: 20px auto;
-}
-
-.section-container {
-  min-width: 80%;
-}
-.section-container .info {
-  justify-items: center;
-  margin: 2% 0px;
-  display: grid;
-  grid-template-columns: auto;
-}
-
-.tarjetas {
-  margin-top: 50px;
-  justify-items: center;
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-.tarjetas div a {
-  margin: 25px;
-  padding: 6px;
-  display: block;
-  text-align: center;
-  font-family: "Titillium Web", sans-serif;
-  font-size: 16px;
-  color: black;
-  border: solid #CAD43B 2px;
-  border-radius: 5px;
-}
-
-h3 {
-  font-family: "Titillium Web", sans-serif;
-  font-size: 25px;
-}
-
-h4 {
-  font-family: "Titillium Web", sans-serif;
-  font-size: 14px;
-}
-
-.tarjetas div a:hover {
-  background-color: rgb(38, 131, 185);
-  color: white;
-  transition: 0.4s;
-}
-
 * {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
   padding: 0px;
   margin: 0px;
-  text-decoration: none;
-  box-sizing: content-box;
-  font-family: "Open Sans", sans-serif;
 }
 
 #footer {
+  width: 100vw;
   justify-items: center;
   display: grid;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 
 .footer-container {
   width: 80%;
+  max-width: 75%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px;
 }
 
 .menu-izquierda-anidado {
@@ -168,6 +111,7 @@ h4 {
 }
 
 .Informacion p {
+  margin-top: 10px;
   font-size: 13px;
   padding-left: 10px;
 }
@@ -175,10 +119,12 @@ h4 {
 #subsidiarias {
   display: grid;
   margin: 20px auto;
+  width: 100vw;
 }
 
 .grid-subsidiarias {
-  width: 80%;
+  height: 55px;
+  min-width: 70vw;
   margin: 0px auto;
   grid-template-columns: repeat(5, 1fr);
   display: grid;
@@ -186,6 +132,74 @@ h4 {
 }
 
 .subsidiarias {
+  padding-bottom: 10px;
   width: 120px;
   height: 48px;
+}
+
+.subsidiarias:hover {
+  width: 140px;
+  height: 55px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  box-sizing: content-box;
+}
+
+#section-index {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: auto;
+  margin: 20px auto;
+  width: 100vw;
+}
+
+.section-container {
+  width: 80%;
+  max-width: 70vw;
+}
+.section-container .info {
+  justify-items: center;
+  margin: 2% 0px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.tarjetas {
+  margin-top: 50px;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.tarjetas div a {
+  margin: 25px;
+  padding: 6px;
+  display: block;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 16px;
+  color: black;
+  border: solid #CAD43B 2px;
+  border-radius: 5px;
+}
+
+h3 {
+  padding: 5px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 25px;
+}
+
+h4 {
+  padding: 5px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 14px;
+}
+
+.tarjetas div a:hover {
+  background-color: rgb(38, 131, 185);
+  color: white;
+  transition: 0.4s;
 }/*# sourceMappingURL=styles.css.map */
