@@ -4,7 +4,6 @@
 
 *{  padding: 0px;
     margin: 0px;
-    text-decoration: none;
     box-sizing: content-box;
 }
 // como usarlos 
@@ -60,6 +59,7 @@
     div{
 
         a{  
+            text-decoration: none;
             margin: 25px;   
             padding: 6px;
             display: block;
