@@ -149,6 +149,62 @@
   height: 55px;
 }
 
+@media only screen and (max-width: 870px) {
+  .grid-subsidiarias {
+    display: grid;
+    min-width: 70vw;
+    margin: 150px auto;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+  .subsidiarias {
+    padding-bottom: 20px;
+    margin: 15px;
+    width: 180px;
+    height: 55px;
+  }
+  .footer-container {
+    width: 100vw;
+    margin: 10px auto;
+    max-width: 75%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .menu-izquierda-anidado {
+    border-right: none;
+    text-align: center;
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+  }
+  .submenu-izquierda a {
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+  }
+  .container-img-RS {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 45px);
+    justify-content: space-evenly;
+  }
+  .logo-redes {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .grid-subsidiarias {
+    display: grid;
+    height: 300px;
+    min-width: 70vw;
+    margin: 150px auto;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
 * {
   font-family: "Open Sans", sans-serif;
 }
