@@ -4,21 +4,16 @@
 }
 
 #header {
-  display: grid;
-  justify-items: center;
   width: 100vw;
 }
 
-.collapse {
-  display: none;
-}
-
 .header-container {
-  margin: 10px;
-  gap: 10px;
-  align-items: center;
+  width: 80%;
+  margin: 20px auto;
   min-width: 70%;
   display: grid;
+  gap: 5px;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -69,6 +64,32 @@
   border-radius: 4px;
 }
 
+.navbar-dark {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-container {
+    width: 90%;
+    margin: 20px auto;
+    min-width: 70%;
+    display: grid;
+    gap: 5px;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+}
+.imag-logo a img {
+  text-align: center;
+  justify-items: center;
+  justify-self: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-dark {
+    display: none;
+  }
+}
 * {
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
@@ -212,22 +233,17 @@
 }
 
 #section-index {
-  justify-items: center;
-  display: grid;
-  grid-template-columns: auto;
-  margin: 20px auto;
   width: 100vw;
 }
 
 .section-container {
   width: 80%;
-  max-width: 70vw;
+  margin: 30px auto 0px auto;
 }
 .section-container .info {
   justify-items: center;
   margin: 2% 0px;
   display: grid;
-  grid-template-columns: auto;
 }
 .section-container .tarjetas {
   margin-top: 50px;
@@ -238,7 +254,6 @@
 .section-container .tarjetas div a {
   text-decoration: none;
   margin: 25px;
-  padding: 6px;
   display: block;
   text-align: center;
   font-family: "Titillium Web", sans-serif;
@@ -266,23 +281,23 @@ h4 {
   transition: 0.4s;
 }
 
+@media only screen and (max-width: 768px) {
+  .section-container {
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .section-container .tarjetas {
+    margin-top: 50px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 @media only screen and (min-width: 768px) {
   .cards {
     display: flex;
     justify-content: center;
     margin-top: 100px;
-  }
-  #section-index {
-    justify-items: center;
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 20px auto 0px auto;
-    width: 100vw;
-  }
-  .tarjetas {
-    margin-top: 50px;
-    justify-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -2,7 +2,8 @@
 @use 'header';
 @use'footer';
 
-*{  padding: 0px;
+*{  
+    padding: 0px;
     margin: 0px;
     box-sizing: content-box;
 }
@@ -28,24 +29,19 @@
 
 
 #section-index{
-    justify-items: center;
-    display: grid;
-    grid-template-columns: auto;
-    margin: 20px auto;
     width: 100vw;
     
 }
 
 .section-container{
     width: 80%;
-    max-width: 70vw;
+    margin: 30px auto 0px auto;
     
 
     .info{
         justify-items: center;
         margin: 2% 0px;
         display: grid;
-        grid-template-columns: auto;
         
     }   
 
@@ -60,7 +56,6 @@
             a{  
                 text-decoration: none;
                 margin: 25px;   
-                padding: 6px;
                 display: block;
                 text-align: center;
                 font-family: 'Titillium Web', sans-serif;
@@ -97,6 +92,24 @@ h4{
 
 }
 
+@media only screen and (max-width: 768px){
+    
+   .section-container{
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
+    
+        
+        .tarjetas{
+            margin-top: 50px;
+            justify-items: center;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+    }
+            
+}
 @media only screen and (min-width: 768px){
     
     .cards{
@@ -105,20 +118,5 @@ h4{
         justify-content: center;
         margin-top: 100px;
         
-    }
-
-    #section-index{
-        justify-items: center;
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: 20px auto 0px auto ;
-        width: 100vw;
-        
-    }
-    .tarjetas{
-        margin-top: 50px;
-        justify-items: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
     }
 }
