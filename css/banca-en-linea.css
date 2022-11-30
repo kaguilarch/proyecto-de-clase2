@@ -5,18 +5,16 @@
 }
 
 #header-banca-en-linea {
-  width: 100vw;
   background: rgb(72, 102, 183);
   background: linear-gradient(90deg, rgb(72, 102, 183) 18%, rgb(99, 137, 207) 88%);
 }
 
 .header-banca-en-linea-container {
-  width: 80%;
+  width: 90vw;
   padding: 10px;
-  max-width: 75%;
+  max-width: 76%;
   margin: 0px auto;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .header-banca-en-linea-container a img {
@@ -85,7 +83,6 @@ input {
   margin-right: 10px;
 }
 .footer-banca-en-linea-container ul {
-  display: grid;
   justify-items: start;
   grid-template-columns: 0.7fr 1fr;
   margin-left: 10px;
@@ -94,4 +91,56 @@ input {
   color: white;
   font-size: 19px;
   margin: 5px 11px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-banca-en-linea-container {
+    justify-content: space-between;
+  }
+  .banca-en-linea-container {
+    width: 50%;
+    display: block;
+  }
+  form {
+    width: 50vw;
+    margin: 100px 0px 100px 50%;
+    display: grid;
+    grid-template-columns: 1fr;
+    min-width: 250px;
+    background-color: rgba(220, 221, 214, 0.4352941176);
+  }
+  form .input {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(204, 204, 204, 0.8);
+  }
+  form .boton {
+    width: 92%;
+  }
+  .background img {
+    display: none;
+  }
+  span {
+    display: block;
+  }
+  .footer-banca-en-linea-container {
+    display: block;
+  }
+}
+@media only screen and (max-width: 376px) {
+  form {
+    margin: 100px 0px 100px 25%;
+    display: grid;
+    grid-template-columns: 1fr;
+    min-width: 250px;
+  }
+  ul {
+    width: 100%;
+    margin-left: 10px;
+  }
+  ul li {
+    padding: 5px;
+    width: 80%;
+  }
 }/*# sourceMappingURL=banca-en-linea.css.map */

@@ -4,17 +4,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 #header-banca-en-linea{
-    width: 100vw;
+    
     background: rgb(72,102,183);
     background: linear-gradient(90deg, rgba(72,102,183,1) 18%, rgba(99,137,207,1) 88%);
 }
 .header-banca-en-linea-container{
-    width: 80%;
+    width: 90vw;
     padding: 10px;
-    max-width: 75%;
+    max-width: 76%;
     margin: 0px auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     
     a{
@@ -44,6 +43,8 @@ input{
     margin: 15px;
 
 }
+
+
 .input{
     font-size: 17px;
     font-weight: bold;
@@ -91,7 +92,7 @@ input{
         }
     }
     ul{
-        display: grid;
+        // display: grid;
         justify-items: start;
         grid-template-columns:.7fr 1fr;
         margin-left: 10px;
@@ -102,5 +103,75 @@ input{
             margin: 5px 11px;
         }
     }
+}
+@media only screen and (max-width: 768px) {
+
+    .header-banca-en-linea-container{
+        justify-content: space-between;
+
+    }
+
+    .banca-en-linea-container{
+        width: 50%;
+        display: block;
+    }
+    form{
+        width: 50vw;
+        margin: 100px 0px 100px 50%;
+        display: grid;
+        grid-template-columns: 1fr;
+        min-width: 250px;
+        background-color: #dcddd66f;
+
+        .input{
+            font-size: 17px;
+            font-weight: bold;
+            text-align: center;
+            background-color:#CCCC;
+
+        }
+        .boton{
+            width: 92%;
+        }
+        
+    }
+    .background{ 
+
+                       
+        img{ 
+            display: none;          
+        }
+        
+    }
+    span{
+        display: block;
+    }
+    .footer-banca-en-linea-container{
+        display: block;
+    }
+
         
 }
+@media only screen and (max-width: 376px){
+
+    form{
+        margin: 100px 0px 100px 25%;
+        display: grid;
+        grid-template-columns: 1fr;
+        min-width: 250px;
+    }
+
+
+    ul{
+        width: 100%;
+        margin-left: 10px;
+        li{ 
+            padding: 5px;
+            width: 80%;
+            
+        }
+    }
+        
+
+}
+
