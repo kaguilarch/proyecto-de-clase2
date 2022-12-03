@@ -356,6 +356,33 @@ nav {
     background-color: #CAD43B;
     border-radius: 5px;
   }
+  #section-sostenibilidad {
+    width: 90%;
+    margin: 50px auto;
+  }
+  #section-sostenibilidad .sostenibilidad-container {
+    width: 80%;
+    margin: 0px auto;
+    max-width: 80%;
+  }
+  #section-sostenibilidad .sostenibilidad-container .img-sostenibilidad {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #section-sostenibilidad .sostenibilidad-container .img-sostenibilidad .idea {
+    background-color: rgb(6, 54, 117);
+    color: white;
+  }
+  #section-sostenibilidad .sostenibilidad-container .img-sostenibilidad .idea h3 {
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #section-sostenibilidad .sostenibilidad-container .img-sostenibilidad img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 }
 @media (min-width: 480px) and (max-width: 680px) {
   #sostenibilidad-inferior {
@@ -504,6 +531,33 @@ nav {
     background-color: #CAD43B;
     border-radius: 5px;
   }
+  #section-sostenibilidad {
+    width: 90%;
+    margin: 50px auto;
+  }
+  #section-sostenibilidad .sostenibilidad-container {
+    width: 80%;
+    margin: 0px auto;
+    max-width: 80%;
+  }
+  #section-sostenibilidad .sostenibilidad-container .img-sostenibilidad {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #section-sostenibilidad .sostenibilidad-container .img-sostenibilidad .idea {
+    background-color: rgb(6, 54, 117);
+    color: white;
+  }
+  #section-sostenibilidad .sostenibilidad-container .img-sostenibilidad .idea h3 {
+    padding: 25px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #section-sostenibilidad .sostenibilidad-container .img-sostenibilidad img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
 }
 @media (min-width: 870px) {
   #sostenibilidad-inferior {
@@ -576,13 +630,13 @@ nav {
     border-radius: 5px;
   }
   #section-sostenibilidad {
-    width: 100vw;
-    background-color: #CAD43B;
+    width: 90%;
+    margin: 50px auto;
   }
   #section-sostenibilidad .sostenibilidad-container {
     width: 80%;
+    margin: 0px auto;
     max-width: 80%;
-    margin: 40px auto;
   }
   #section-sostenibilidad .sostenibilidad-container .img-sostenibilidad {
     display: flex;
