@@ -344,7 +344,7 @@ nav {
        object-fit: contain;
   }
 }
-@media (min-width: 680px) and (max-width: 870px) {
+@media (min-width: 680px) and (max-width: 869px) {
   #section-transparencia {
     width: 90%;
     margin: 50px auto;
