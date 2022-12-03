@@ -10,12 +10,13 @@
 }
 
 .header-banca-en-linea-container {
-  width: 90vw;
-  padding: 10px;
+  width: 90%;
+  padding: 5px;
   max-width: 76%;
   margin: 0px auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .header-banca-en-linea-container a img {
   height: 60px;
@@ -26,7 +27,7 @@
 }
 
 .banca-en-linea-container {
-  width: 100vw;
+  width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
