@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="banco nacional de costa rica realiza la solictud para credito y tarjetas de credito asi como tambien puedes obtener toda la informacion y transparencia del conglomerado y sus subsidiarias">
     <meta name="keywords" content="credito financiamiento prestamos presnales tarjetas de credito">
-    <link rel="stylesheet" href="../css/registro-de-cliente.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Registro de cliente</title>
 </head>
@@ -18,18 +18,18 @@
 
             <div class="container-form">
                 <div class="label">
-                    <label for="Identificacion">Identificacion:</label>
-                    <label for="Nombre">Nombre:</label>
-                    <label for="Apellido">Primer Apellido:</label>
-                    <label for="Segundo-Apellido">Segundo Apellido:</label>
-                    <label for="nacimiento">fecha de nacimiento:</label>
+                    <label class="label-registro" for="Identificacion">Identificacion:</label>
+                    <label class="label-registro" for="Nombre">Nombre:</label>
+                    <label class="label-registro" for="Apellido">Primer Apellido:</label>
+                    <label class="label-registro" for="Segundo-Apellido">Segundo Apellido:</label>
+                    <label class="label-registro" for="nacimiento">fecha de nacimiento:</label>
                 </div>       
-                <div class="input">
-                    <input type="text" id="Identificacion">
-                    <input type="text" id ="Nombre">
-                    <input type="text" id ="Apellido">
-                    <input type="text" id="Segundo-Apellido">
-                    <input type="date" id="nacimiento">
+                <div class="input-registro">
+                    <input class="input-cliente" type="text" id="Identificacion">
+                    <input class="input-cliente" type="text" id ="Nombre">
+                    <input class="input-cliente" type="text" id ="Apellido">
+                    <input class="input-cliente" type="text" id="Segundo-Apellido">
+                    <input class="input-cliente" type="date" id="nacimiento">
                 </div>
             </div>
         </div>
@@ -40,14 +40,14 @@
             <div class="Titulo-registro"><h4>Información Adicional</h4></div>
                 <div class="container-form">
                     <div class="label">
-                        <label>Nacionalidad:</label>
-                        <label for="trabajador">Tipo de trabajador:</label>
-                        <label for="Profesión">Profesión:</label>
-                        <label for="Correo">Correo:</label>
-                        <label for="Teléfono">Teléfono:</label>
-                        <label for="Ubicacion">Ubicacion:</label>
+                        <label class="label-registro">Nacionalidad:</label>
+                        <label class="label-registro" for="trabajador">Tipo de trabajador:</label>
+                        <label class="label-registro" for="Profesión">Profesión:</label>
+                        <label class="label-registro" for="Correo">Correo:</label>
+                        <label class="label-registro" for="Teléfono">Teléfono:</label>
+                        <label class="label-registro" for="Ubicacion">Ubicacion:</label>
                     </div>
-                    <div class="input">
+                    <div class="selector">
                         <select>	
                             <option selected="selected" value="-1">Seleccione</option>
                             <option value="300">AFGANO</option>
@@ -391,16 +391,12 @@
                             
                         </select>
      
-                        <input type="email" id="Correo">
-                        <input type="text" id="Teléfono">
+                        <input class="input-cliente" type="email" id="Correo">
+                        <input class="input-cliente" type="text" id="Teléfono">
                         <textarea name="Ubicacion" id="Ubicacion" cols="37"></textarea>
                     </div>
                 </div>
         </div>
-
-            
-            
-         
     </form>
 
     <div class="boton-f"> 

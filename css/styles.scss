@@ -91,7 +91,873 @@ h4{
     }
 
 }
+#header-banca-en-linea{
+    
+    background: rgb(72,102,183);
+    background: linear-gradient(90deg, rgba(72,102,183,1) 18%, rgba(99,137,207,1) 88%);
+}
+.header-banca-en-linea-container{
+    width: 90%;
+    padding: 5px;
+    max-width: 76%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    a{
+        img{
+            height: 60px;
+        }
+    }
+}
+.img-header-banca-en-linea{
+    height: 70px;
 
+}
+.banca-en-linea-container{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+    .form-banca-en-linea{
+        .banca-en-linea-form{
+
+            .input-registro{
+                font-size: 17px;
+                font-weight: bold;
+                text-align: center;
+                background-color:#CCCC;
+                border-radius: 5px;
+                border: none;
+                padding: 10px;
+                display: block;
+                margin: 15px;
+            
+             }
+             .boton-submit{
+                width: 76%;
+                margin-left: 20px;
+                background-color: #cad43b;
+                padding: 10px;
+                color: white;
+                font-weight: bold;
+                font-size: 17px;
+            }
+            
+
+        }
+
+    }
+
+
+}
+
+.background{                  
+    img{  
+        margin: 4px 0px 0px 0px;
+        max-width: 70vw;
+        height: 72.5vh;
+      
+    }
+    
+}
+
+
+#footer-banca-en-linea{
+    width: 100vw;
+    background: rgb(72,102,183);
+    background: linear-gradient(90deg, rgba(72,102,183,1) 18%, rgba(99,137,207,1) 88%);
+}
+.footer-banca-en-linea-container{
+    padding: 10px;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span{
+        h2{
+            color: white;
+            font-size: 40px;
+            padding: 10px;
+            margin-right: 10px;
+
+        }
+    }
+    ul{
+        
+        justify-items: start;
+        grid-template-columns:.7fr 1fr;
+        margin-left: 10px;
+
+        li{
+            color: white;
+            font-size: 19px;
+            margin: 5px 11px;
+        }
+    }
+}
+#info-transparencia{
+    width: 100%;
+
+    .container-info-transparencia{
+        width: 80%;
+        margin: 0px auto;
+
+        .info-t{
+            background-color: #f6f8fd;
+            margin: 10px;
+
+
+            h3{
+                padding: 10px;
+                font-family: sans-serif;
+                color: #1c3583;
+                font-size: 16px;
+                font-weight: bold;
+            }
+            p{
+                font-size: 14px;
+                padding: 10px;
+                
+            }
+
+        }
+    }
+}
+// ------------------------------------------------
+
+#Registro-de-cliente{
+    justify-items: center;
+    display: grid;
+    margin:5% auto;
+    
+}
+.container-información{
+    border: solid 1px #c2c1c1;
+    border-radius: 4px;
+    width: 80%;
+    
+
+    .Titulo-registro{
+        border-bottom: solid 1px #c2c1c1;
+        font-size: 12px;
+        padding: 10px;
+        background-color: #f5f5f5;
+    }
+
+    .container-form{
+        display: grid;
+        grid-template-columns: auto 1fr;
+
+        .input-cliente{
+            margin: 12px;
+            display: block;
+            border: solid#d4d4d4 1px;
+            background-color: #f5f5f5;
+            
+        }
+        .label-registro{
+            margin: 10px 0px 10px 20px ;
+            display: block;
+        }
+
+
+    }
+}
+
+#Información-Adicional{
+    justify-items: center;
+    display: grid;
+    margin:1% auto;   
+}
+
+.container-form{
+        select{
+            margin: 10px;
+            display: block;
+            width: 260px;
+        }
+}
+.boton-f{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+
+    #sostenibilidad-inferior{
+        width: 100%;
+        
+
+        .sostenibilidad-inferior-container{
+            max-width: 70%;
+            margin: 0px auto;
+
+            .sostenibilidad-inferior-izquierda{
+                background-color: #f6f8fd;
+                margin: 40px 0px;
+                display: flex;
+                flex-direction: column;
+
+                img{
+                    object-fit: contain;
+                }
+
+                .sost-info{
+
+                    width: 100%;
+                   
+
+                    h2{
+                        text-align: center;
+                        font-size: 20px;
+                        padding: 10px 0px;
+                        color: #1c3583;
+                    }
+                    a{
+                        display: block;
+                        text-align: center;
+                        font-size: 16px;
+                        color: #1c3583;
+                        text-decoration: none; 
+                        margin: 15px;   
+                        padding: 15px 30px;
+                        background-color:  #CAD43B;
+                        border-radius: 5px;
+                    }
+
+                }
+
+            }
+         
+        }  
+        
+        .sostenibilidad-inferior-derecha{
+
+                background-color: #f6f8fd;
+                margin: 20px 0px;
+                display: flex;
+                flex-direction: column;
+                img{
+                    object-fit: contain;
+                }
+
+                .sost-info{
+
+                    width: 100%;
+                   
+
+                    h2{
+                        text-align: center;
+                        font-size: 20px;
+                        padding: 10px 0px;
+                        color: #1c3583;
+                    }
+                    a{
+                        display: block;
+                        text-align: center;
+                        font-size: 16px;
+                        color: #1c3583;
+                        text-decoration: none; 
+                        margin: 15px;   
+                        padding: 15px 30px;
+                        background-color:  #CAD43B;
+                        border-radius: 5px;
+                    }
+
+            }
+        }
+    }
+    #section-sostenibilidad{
+        width: 90%;
+        margin: 50px auto;
+    
+    .sostenibilidad-container{
+        width: 80%;
+        margin: 0px auto;
+        max-width: 80%;     
+
+        .img-sostenibilidad{ 
+            display: flex;
+            flex-direction: column-reverse;
+
+             .idea{
+                background-color: rgba(6, 54, 117);
+                color: white;
+                
+                h3{
+                    padding: 25px;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+
+             }
+            img{
+                 width: 100%;
+                object-fit: contain;
+            }        
+
+        
+        }
+
+    }
+ }
+    #section-transparencia{
+    width: 90%;
+    margin: 50px auto;
+
+.transparencia-container{
+    width: 80%;
+    margin: 0px auto;
+    max-width: 80%;
+      
+
+    .img-transparencia{ 
+        display: flex;
+        flex-direction: column-reverse;
+
+         .idea{
+            background-color: rgba(6, 54, 117);
+            color: white;
+            
+            h3{
+                padding: 25px;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+         }
+        img{
+             width: 100%;
+            object-fit: contain;
+        }        
+
+    
+    }
+
+}
+}
+}
+@media (min-width: 480px) and (max-width: 680px){
+    #sostenibilidad-inferior{
+        width: 100%;
+                
+
+        .sostenibilidad-inferior-container{
+            max-width: 75%;
+            margin: 0px auto;
+
+            .sostenibilidad-inferior-izquierda{
+                background-color: #f6f8fd;
+                margin: 40px 0px;
+                display: flex;
+                flex-direction: column;
+
+                img{
+                    object-fit: contain;
+                }
+
+                .sost-info{
+
+                    width: 100%;
+                   
+
+                    h2{
+                        text-align: center;
+                        font-size: 20px;
+                        padding: 10px 0px;
+                        color: #1c3583;
+                    }
+                    a{
+                        display: block;
+                        text-align: center;
+                        font-size: 16px;
+                        color: #1c3583;
+                        text-decoration: none; 
+                        margin: 15px;   
+                        padding: 15px 30px;
+                        background-color:  #CAD43B;
+                        border-radius: 5px;
+                    }
+
+                }
+
+            }
+         
+        }  
+        
+        .sostenibilidad-inferior-derecha{
+
+                background-color: #f6f8fd;
+                margin: 20px 0px;
+                display: flex;
+                flex-direction: column;
+                img{
+                    object-fit: contain;
+                }
+
+                .sost-info{
+
+                    width: 100%;
+                   
+
+                    h2{
+                        text-align: center;
+                        font-size: 20px;
+                        padding: 10px 0px;
+                        color: #1c3583;
+                    }
+                    a{
+                        display: block;
+                        text-align: center;
+                        font-size: 16px;
+                        color: #1c3583;
+                        text-decoration: none; 
+                        margin: 15px;   
+                        padding: 15px 30px;
+                        background-color:  #CAD43B;
+                        border-radius: 5px;
+                    }
+
+            }
+        }
+    }
+    #section-transparencia{
+        width: 90%;
+        margin: 50px auto;
+    
+    .transparencia-container{
+        width: 80%;
+        margin: 0px auto;
+        max-width: 80%;
+          
+
+        .img-transparencia{ 
+            display: flex;
+            flex-direction: column-reverse;
+
+             .idea{
+                background-color: rgba(6, 54, 117);
+                color: white;
+                
+                h3{
+                    padding: 25px;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+
+             }
+            img{
+                 width: 100%;
+                object-fit: contain;
+            }        
+
+        
+        }
+
+    }
+ }
+
+}
+@media (min-width: 680px) and (max-width: 870px){
+
+    #sostenibilidad-inferior{
+        margin-top: 50px;
+        width: 100%;
+        
+        
+        
+
+        .sostenibilidad-inferior-container{
+
+            width: 80%;
+            justify-content: center;
+            margin: 0px auto;
+            display: flex;
+            flex-wrap: wrap;
+            
+
+            .sostenibilidad-inferior-izquierda{
+                width: 80%;
+                background-color: #f6f8fd;
+                display: grid;
+                grid-template-columns: .1fr 1fr;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 30px;
+
+                img{
+                    width: auto;
+                    height: 250px;
+                }
+
+                .sost-info{
+
+                    width: 100%;
+                   
+
+                    h2{
+                        text-align: center;
+                        font-size: 20px;
+                        padding: 10px 0px;
+                        color: #1c3583;
+                    }
+                    a{
+                        display: block;
+                        text-align: center;
+                        font-size: 16px;
+                        color: #1c3583;
+                        text-decoration: none; 
+                        margin: 15px;   
+                        padding: 15px 30px;
+                        background-color:  #CAD43B;
+                        border-radius: 5px;
+                    }
+
+                }
+
+            }
+         
+        }  
+        
+        .sostenibilidad-inferior-derecha{
+                width: 80%;
+                background-color: #f6f8fd;
+                display: grid;
+                grid-template-columns: .1fr 1fr;
+                justify-content: space-between;
+                justify-items: end;
+                align-items: center;
+                
+
+                img{
+                    width: auto;
+                    height: 250px;
+                    
+                }
+
+                .sost-info{
+
+                    width: 100%;
+                   
+
+                    h2{
+                        text-align: center;
+                        font-size: 20px;
+                        padding: 10px 0px;
+                        color: #1c3583;
+                    }
+                    a{
+                        display: block;
+                        text-align: center;
+                        font-size: 16px;
+                        color: #1c3583;
+                        text-decoration: none; 
+                        margin: 15px;   
+                        padding: 15px 30px;
+                        background-color:  #CAD43B;
+                        border-radius: 5px;
+                    }
+
+            }
+        }
+    }
+    #section-sostenibilidad{
+        width: 90%;
+        margin: 50px auto;
+    
+    .sostenibilidad-container{
+        width: 80%;
+        margin: 0px auto;
+        max-width: 80%;     
+
+        .img-sostenibilidad{ 
+            display: flex;
+            flex-direction: column-reverse;
+
+             .idea{
+                background-color: rgba(6, 54, 117);
+                color: white;
+                
+                h3{
+                    padding: 25px;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+
+             }
+            img{
+                 width: 100%;
+                object-fit: contain;
+            }        
+
+        
+        }
+
+    }
+    }
+    #section-transparencia{
+    width: 90%;
+    margin: 50px auto;
+
+.transparencia-container{
+    width: 80%;
+    margin: 0px auto;
+    max-width: 80%;     
+
+    .img-transparencia{ 
+        display: flex;
+        flex-direction: column-reverse;
+
+         .idea{
+            background-color: rgba(6, 54, 117);
+            color: white;
+            
+            h3{
+                padding: 25px;
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+         }
+        img{
+             width: 100%;
+            object-fit: contain;
+        }        
+
+    
+    }
+
+}
+    }
+}
+@media (min-width: 870px){
+    #sostenibilidad-inferior{
+        margin-top: 50px;
+        width: 100%;
+        
+        
+        
+        
+
+        .sostenibilidad-inferior-container{
+            width: 80%;
+            justify-content: center;
+            margin: 0px auto;
+            display: flex;
+            
+
+            .sostenibilidad-inferior-izquierda{
+                min-width: 45%;
+                background-color: #f6f8fd;
+                display: grid;
+                grid-template-columns: auto 1fr;
+                justify-content: center;
+                align-items: center;
+                margin-right: 10px;
+                
+
+                img{
+                    width: auto;
+                    height: 250px;
+                }
+
+                .sost-info{                 
+
+                    h2{
+                        text-align: center;
+                        font-size: 20px;
+                        padding: 10px 0px;
+                        color: #1c3583;
+                    }
+                    a{
+                        display: block;
+                        text-align: center;
+                        font-size: 16px;
+                        color: #1c3583;
+                        text-decoration: none; 
+                        margin: 15px;   
+                        padding: 15px 30px;
+                        background-color:  #CAD43B;
+                        border-radius: 5px;
+                    }
+
+                }
+
+            }
+         
+        }  
+        
+        .sostenibilidad-inferior-derecha{
+                min-width: 45%;
+                background-color: #f6f8fd;
+                display: grid;
+                grid-template-columns: auto 1fr;
+                justify-content: center;
+                align-items: center;
+                                
+
+                img{
+                    width: auto;
+                    height: 250px;
+                    
+                }
+
+                .sost-info{
+                    
+                
+                   
+
+                    h2{
+                        text-align: center;
+                        font-size: 20px;
+                        padding: 5px 0px;
+                        color: #1c3583;
+                    }
+                    a{
+                        display: block;
+                        text-align: center;
+                        font-size: 16px;
+                        color: #1c3583;
+                        text-decoration: none; 
+                        margin: 15px;   
+                        padding: 15px 30px;
+                        background-color:  #CAD43B;
+                        border-radius: 5px;
+                    }
+
+            }
+        }
+    }
+
+
+    #section-sostenibilidad{
+        width: 90%;
+        margin: 50px auto;
+            
+    .sostenibilidad-container{
+        width: 80%;
+        margin: 0px auto;
+        max-width: 80%;
+        .img-sostenibilidad{
+           
+            display: flex;
+            justify-content: end;
+            position: relative;
+            
+
+            img{
+                width: 65vw;
+                height: 60vh;
+                
+
+            }
+
+            .idea{
+                top: 100px;
+                left: 0px;
+                display: flex;
+                justify-content: center;
+                color: white;
+                padding: 2rem ;
+                border-top-right-radius: 50px;
+                border-top-left-radius: 50px;
+                border-bottom-right-radius: 50px;
+                position: absolute;
+                background-color: rgba(6, 54, 117);
+                height: 30vh;
+                width: 17vw;
+                
+                h3{
+                    text-align: center;
+                    align-self: center;
+                    font-size: 20px;
+                    
+                }
+            }
+        }
+
+    }
+ }
+     #section-transparencia{
+    width: 90%;
+    margin: 50px auto;
+        
+.transparencia-container{
+    width: 80%;
+    margin: 0px auto;
+    max-width: 80%;
+    .img-transparencia{
+       
+        display: flex;
+        justify-content: end;
+        position: relative;
+        
+
+        img{
+            width: 65vw;
+            height: 60vh;
+            
+
+        }
+
+        .idea{
+            top: 100px;
+            left: 0px;
+            display: flex;
+            justify-content: center;
+            color: white;
+            padding: 2rem ;
+            border-top-right-radius: 50px;
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            position: absolute;
+            background-color: rgba(6, 54, 117);
+            height: 30vh;
+            width: 17vw;
+            
+            h3{
+                text-align: center;
+                align-self: center;
+                font-size: 20px;
+                
+            }
+        }
+    }
+
+}
+}
+
+}
+
+@media only screen and (max-width: 376px){
+
+    .banca-en-linea-form{
+        margin: 100px 0px 100px 25%;
+        display: grid;
+        grid-template-columns: 1fr;
+        min-width: 250px;
+    }
+
+
+    ul{
+        width: 100%;
+        margin-left: 10px;
+        li{ 
+            padding: 5px;
+            width: 80%;
+            
+        }
+    }
+        
+
+}
 @media only screen and (max-width: 768px){
     
    .section-container{
@@ -108,7 +974,104 @@ h4{
         }
 
     }
+    .header-banca-en-linea-container{
+        justify-content: space-between;
+
+    }
+
+    .banca-en-linea-container{
+        width: 50%;
+        display: block;
+    }
+    .banca-en-linea-form{
+        width: 50vw;
+        margin: 100px 0px 100px 50%;
+        display: grid;
+        grid-template-columns: 1fr;
+        min-width: 300px;
+        background-color: #dcddd66f;
+
+        .input-registro{
+            font-size: 17px;
+            font-weight: bold;
+            text-align: center;
+            background-color:#CCCC;
+
+        }
+        .boton-submit{
+            width: 80%;
+        }
+        
+    }
+    .background{ 
+
+                       
+        img{ 
+            display: none;          
+        }
+        
+    }
+    span{
+        display: block;
+    }
+    .footer-banca-en-linea-container{
+        display: block;
+    }
+    #Registro-de-cliente{
+        min-width: 410px;
+        
+    }
+    #Información-Adicional{
+        min-width: 410px;   
+    }
+
+    .container-form{
+        select{
+            margin: 10px;
+            display: block;
+            width: 175px;
+        }
+    }
+    textarea{
+        margin-top: 5px;
+        width: 175px;
+    }
+
+    .boton-f{
+        width: auto;
+        height: auto;
+
+        div{
             
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            a{
+                margin-top: 20px;
+                margin-bottom: 20px;
+                          
+            }
+            button{
+                height: 40px;
+                width: 120px;
+            }
+        }
+    }
+
+    .container-form{
+        .input-cliente{
+
+            margin-top: 45px;
+            display: block;
+            border: solid#d4d4d4 1px;
+            background-color: #f5f5f5;
+            
+        }
+    }
+
+        
 }
 @media only screen and (min-width: 768px){
     
